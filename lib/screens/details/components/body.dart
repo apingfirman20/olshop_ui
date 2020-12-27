@@ -3,6 +3,7 @@ import 'package:olshop_ui/constants.dart';
 import 'package:olshop_ui/models/Product.dart';
 
 import 'color_and_size.dart';
+import 'description.dart';
 import 'product_title_with_image.dart';
 
 class Body extends StatelessWidget {
@@ -38,7 +39,8 @@ class Body extends StatelessWidget {
                   ),
                   child: Column(
                     children: [
-                      ColorAndSize(product: product)
+                      ColorAndSize(product: product),
+                      Description(product: product)
                     ],
                   ),
                 ),
