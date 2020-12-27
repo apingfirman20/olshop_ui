@@ -42,7 +42,7 @@ class Body extends StatelessWidget {
                     children: [
                       ColorAndSize(product: product),
                       Description(product: product),
-                      CartCounterState(),
+                      CartCounter(),
                     ],
                   ),
                 ),
