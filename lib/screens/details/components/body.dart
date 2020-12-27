@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:olshop_ui/constants.dart';
 import 'package:olshop_ui/models/Product.dart';
 
-import 'cart_counter.dart';
 import 'color_and_size.dart';
+import 'counter_with_favorite.dart';
 import 'description.dart';
 import 'product_title_with_image.dart';
 
@@ -42,7 +42,7 @@ class Body extends StatelessWidget {
                     children: [
                       ColorAndSize(product: product),
                       Description(product: product),
-                      CartCounter(),
+                      CounterWithFavoriteButton(),
                     ],
                   ),
                 ),
